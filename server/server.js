@@ -8,7 +8,7 @@ import cors from 'cors';
 const app = express();
 
 app.use(cors({
-  origin: 'https://formulario-inscricao-ivory.vercel.app', // Altere para a porta do seu frontend
+  origin: 'https://formulario-inscricao-one.vercel.app', // Altere para a porta do seu frontend
   credentials: true
 }));
 app.use(express.json());

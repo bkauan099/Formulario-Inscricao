@@ -13,7 +13,7 @@ export default function Login() {
 
     try {
       const { data } = await axios.post(
-        'https://formulario-inscricao-0hsl.onrender.com/api/auth/login',
+        'https://formulario-inscricao-mctn.onrender.com/api/auth/login',
         form
       );
 

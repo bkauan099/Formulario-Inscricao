@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://formulario-inscricao-0hsl.onrender.com/api',
+  baseURL: 'https://formulario-inscricao-mctn.onrender.com/api',
 });
 
 api.interceptors.request.use((config) => {

@@ -42,7 +42,7 @@ export default function Cadastrar() {
     if (!validate()) return;
     
     try {
-      await axios.post('https://formulario-inscricao-0hsl.onrender.com/api/auth/register', {
+      await axios.post('https://formulario-inscricao-mctn.onrender.com/api/auth/register', {
         username: form.username,
         password: form.password
       });

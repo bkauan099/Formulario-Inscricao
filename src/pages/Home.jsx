@@ -317,7 +317,7 @@ function Home() {
                   <div key={index} className="flex justify-between items-center p-1 border-b">
                     <span className="text-[12px] md:text-[14px]">{file.name}</span>
                     <button onClick={() => removeFile(index, 'identidade')}>
-                      <img className='w-[20px] cursor-pointer' src="./src/assets/trash.png" alt="Remover arquivo-" />
+                      <img className='w-[20px] cursor-pointer' src="./assets/trash.png" alt="Remover arquivo-" />
                     </button>
                   </div>
                 ))}
@@ -371,7 +371,7 @@ function Home() {
                   <div key={index} className="flex justify-between items-center p-1 border-b">
                     <span className="text-[12px] md:text-[14px]">{file.name}</span>
                     <button onClick={() => removeFile(index, 'residencia')}>
-                      <img className='w-[20px] cursor-pointer' src="./src/assets/trash.png" alt="Remover arquivo-" />
+                      <img className='w-[20px] cursor-pointer' src="./assets/trash.png" alt="Remover arquivo-" />
                     </button>
                   </div>
                 ))}
